@@ -1,15 +1,15 @@
 import {
-    Body,
-    Controller,
-    Delete,
-    Get,
-    HttpCode,
-    Param,
-    Post,
-    Put,
-    Query,
-    UsePipes,
-    ValidationPipe,
+  Body,
+  Controller,
+  Delete,
+  Get,
+  HttpCode,
+  Param,
+  Post,
+  Put,
+  Query,
+  UsePipes,
+  ValidationPipe,
 } from '@nestjs/common';
 import { Auth } from 'src/auth/decorators/auth.decorator';
 import { IdValidationPipe } from 'src/pipes/id.validation.pipe';
